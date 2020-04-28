@@ -10,7 +10,6 @@ class Header extends StatelessWidget with PreferredSizeWidget{
      leading: Padding(
        padding: const EdgeInsets.all(8.0),
        child: Icon(Icons.settings),
-     ),
      actions: [
        Padding(
          padding: const EdgeInsets.all(8.0),
