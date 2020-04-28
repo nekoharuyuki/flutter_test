@@ -1,7 +1,7 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'routes/home_route.dart';
-import 'routes/talk_route.dart';
+import 'routes/talk/talk_route.dart';
 import 'routes/timeline_route.dart';
 import 'routes/wallet_route.dart';
 import 'routes/news_route.dart';
