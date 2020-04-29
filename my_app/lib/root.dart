@@ -1,5 +1,6 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
+import 'setting/custom_navigation_drawer.dart';
 import 'routes/home_route.dart';
 import 'routes/talk/talk_route.dart';
 import 'routes/timeline_route.dart';
@@ -93,6 +94,10 @@ class _RootWidgetState extends State<RootWidget> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      drawer: CollapsingNavigationDrawer(),
+      appBar: AppBar(
+        title: Text(_footerItemNames[_selectedIndex]),
+      ),
       body: _routes.elementAt(_selectedIndex),
       bottomNavigationBar: BottomNavigationBar(
         type: BottomNavigationBarType.fixed,
