@@ -84,8 +84,7 @@ class _RootWidgetState extends State<RootWidget> {
  
   void _onItemTapped(int index) {
     setState(() {
-      _bottomNavigationBarItems[_selectedIndex] =
-          _UpdateDeactiveState(_selectedIndex);
+      _bottomNavigationBarItems[_selectedIndex] = _UpdateDeactiveState(_selectedIndex);
       _bottomNavigationBarItems[index] = _UpdateActiveState(index);
       _selectedIndex = index;
     });
