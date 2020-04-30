@@ -65,7 +65,7 @@ class CollapsingNavigationDrawerState extends State<CollapsingNavigationDrawer>
                 itemCount: navigationItems.length,
               ),
             ),
-            InkWell(
+/*            InkWell(
               onTap: () {
                 setState(() {
                   isCollapsed = !isCollapsed;
@@ -83,7 +83,7 @@ class CollapsingNavigationDrawerState extends State<CollapsingNavigationDrawer>
             ),
             SizedBox(
               height: 50.0,
-            ),
+            ),*/
           ],
         ),
       ),
